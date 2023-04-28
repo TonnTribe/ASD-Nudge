@@ -12,32 +12,53 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-    <div class="container">
-        
-        <header class="container-fluid bg-primary text-light mb-5 p-3">
-            <div class="d-flex align-items-center">
-                <h1>ASD Nudge</h1>
-            </div>
-        </header>
 
-        <nav class="navigations my-5">
-            <div class="row">
-                <div class="col-12 col-md-8 col-lg-9">
-                <h2>Navigations</h2>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <h1>ASD Nudge</h1>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto .col-6 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Calendar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Routines</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rewards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-        <section class="calendar">
-            <h2>Calendar/Scheduler</h2>
-        </section>
+    <nav class="navigations row row-cols-4">
+        <div class="list-group">
+            <ul>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Routines</a></li>
+                <li><a href="#">Rewards</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>        
+    </nav>
 
-        <section class="rewards">
-            <h2>Rewards</h2>
-        </section>
+    <section class="calendar">
+        <h2>Calendar/Scheduler</h2>
+    </section>
 
-        <section class="routines">
-            <h2>Routines</h2>
-        </section>
+    <section class="rewards">
+        <h2>Rewards</h2>
+    </section>
+
 
         <footer>
             <p class = 'timer'></p>

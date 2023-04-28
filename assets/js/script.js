@@ -1,11 +1,15 @@
-var rightNow = dayjs().format('dddd, MMM DD');
-var now = dayjs().format('H');
-var start = dayjs().endOf('h')
-var relativeTime = dayjs.extend(window.dayjs_plugin_relativeTime);
+var start = moment("1:00", "m:ss");
+var seconds = start.minutes() * 60;
+var timerEl = $('.timer')
+var timer = '';
 
-var set = dayjs.extend(relativeTime);
+this.interval = setInterval(() => {
+    this.timerDisplay = start.subtract(1, "second").format("m:ss");
+    seconds--;
+    timer = this.timerDisplay;
+    
+    if (seconds === 0) clearInterval(this.interval);
+    timerEl.text(timer);
+},1000);
 
-console.log(now);
-console.log(rightNow);
-console.log(dayjs().from(dayjs('2020-01-01')));
 

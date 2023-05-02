@@ -14,7 +14,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
+        <div class="d-inline-flex justify-content-center">
           <h1>ASD Nudge</h1>
           <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav me-auto .col-6 mb-2 mb-lg-0">
@@ -39,7 +39,8 @@
         </div>
       </nav>
 
-    <nav class="navigations row row-cols-4">
+      <aside class="row row-cols-4">
+        <!-- <img src="./assets/images/puzzle_logo.png" class="card-img-top " alt="calendar icon image"> -->
         <div class="list-group">
             <ul>
                 <li><a href="#">Calendar</a></li>
@@ -49,19 +50,60 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>        
-    </nav>
+      </aside>
 
-    <section class="calendar">
-        <h2>Calendar/Scheduler</h2>
-    </section>
-
-    <section class="rewards">
-        <h2>Rewards</h2>
+    <section class="row row-cols-3 row-cols-lg-3 g-4">
+      <div class="card w-25 p3 h-auto d-inline-block">
+        <img src="./assets/images/calendar-icon.png" class="card-img-bottom" alt="calendar icon image">
+        <div class="card-body">
+          <h5 class="card-title">Calendar</h5>
+          <p class="card-text">Create a daily task list with reminders.</p>
+        
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Schedule</li>
+          <li class="list-group-item">Task List</li>
+          <li class="list-group-item">Reminder</li>
+        </ul>
+        
+          <a href="#" class="card-link">Calendar</a>
+          <a href="#" class="card-link">Schedule</a>
+        </div>
+      </div>
+      <div class="card w-25 p3 h-auto d-inline-block">
+        <img src="./assets/images/routine.jpeg" class="card-img-bottom" alt="image of a clock">
+        <div class="card-body">
+          <h5 class="card-title">Routines</h5>
+          <p class="card-text">Create tasks and routines here:</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Routine 1</li>
+          <li class="list-group-item">Task 1</li>
+          <li class="list-group-item">Routine 2</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Routines</a>
+          
+        </div>
+      </div>
+      <div class="card w-25 p3 h-auto d-inline-block">
+        <img src="./assets/images/rewards.png" class="card-img-bottom" alt="image of a rewards banner">
+        <div class="card-body">
+          <h5 class="card-title">Rewards</h5>
+          <p class="card-text">After finishing tasks, assign a reward!.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">YouTube</li>
+          <li class="list-group-item">Games</li>
+          <li class="list-group-item">Badges/Stickers</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Rewards</a>
+        </div>
+      </div>
     </section>
     <div class="youtube-container">
 
     </div>
-
 
         <footer>
             <p class = 'timer'></p>

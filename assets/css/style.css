@@ -30,3 +30,21 @@ nav a {
 nav a:hover {
     color: grey;
 }
+
+aside {
+    display: inline-block;
+}
+aside img {
+    display: inline-block;
+    max-height: 20%;
+}
+section {
+ display: inline-block;
+}
+
+section img {
+    display: inline-block;
+    height: auto;
+    width: 20%;
+    text-align: center;
+}

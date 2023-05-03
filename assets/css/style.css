@@ -16,7 +16,7 @@ body {
 
 .title h1 {
     color: white;
-    font-size: medium;
+    font-size: larger;
     display: inline-block;
 }
 
@@ -33,18 +33,24 @@ nav a {
     font-weight: bold;
     text-decoration: none;
 }
-  
-nav a:hover {
-    color: grey;
+
+.nav-item a:hover {
+    color: gold;
+}
+
+.nav-link {
+    color: white;
 }
 
 aside {
     display: inline-block;
 }
+
 aside img {
     display: inline-block;
     max-height: 20%;
 }
+
 section {
  display: inline-block;
 }
@@ -54,4 +60,8 @@ section img {
     height: auto;
     width: 20%;
     text-align: center;
+}
+
+.project {
+    color: white;
 }

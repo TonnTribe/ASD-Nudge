@@ -42,33 +42,42 @@ nav a {
     color: white;
 }
 
-aside {
-    display: inline-block;
-}
-
-aside img {
-    max-width: 120px;
-    display: flex;
-    align-content: center;
-
-}
-
-aside ul {
-    display: inline-flexbox;
-    min-width: 250px;
-    list-style-type: none;
-    line-height: 20pt;
-}
-
 section {
- display: inline-block;
-
+    display: inline-block;
+    margin-top: 2%;
 }
 
 section img {
     display: inline-block;
     max-height: 200px;
     text-align: center;
+    max-width: fit-content;
+}
+
+aside {
+    display: inline-block;
+
+}
+
+aside li {
+    display: inline-flexbox;
+    list-style-type: none;
+    margin-top: 20px;
+}
+aside a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    display: inline-flexbox;
+    color:slategray;
+    list-style-type: none;
+    line-height: 28pt;
+    text-decoration: none;
+}
+
+aside img {
+    max-width: 140px;
+    display: flex;
+    margin-bottom: 20px;
 }
 
 .project {
@@ -79,4 +88,14 @@ section img {
 
 .card {
     justify-content: space-between;
+}
+
+.card img {
+    display: inline-flex;
+    text-align: center;
+}
+
+.card-link {
+    text-decoration: none;
+    font-weight: bold;
 }

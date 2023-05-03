@@ -16,7 +16,7 @@ body {
 
 .title h1 {
     color: white;
-    font-size: medium;
+    font-size: larger;
     display: inline-block;
 }
 
@@ -33,20 +33,26 @@ nav a {
     font-weight: bold;
     text-decoration: none;
 }
-  
-nav a:hover {
-    color: grey;
+
+.nav-item a:hover {
+    color: gold;
+}
+
+.nav-link {
+    color: white;
 }
 
 aside {
     display: inline-block;
 }
+
 aside img {
     max-width: 120px;
     display: flex;
     align-content: center;
 
 }
+
 aside ul {
     display: inline-flexbox;
     min-width: 250px;
@@ -63,9 +69,14 @@ section img {
     display: inline-block;
     max-height: 200px;
     text-align: center;
+}
+
+.project {
+    color: white;
     max-width: fit-content;
     align-items: center;
 }
+
 .card {
     justify-content: space-between;
 }

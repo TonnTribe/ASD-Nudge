@@ -45,6 +45,14 @@ main {
   font-size: 16px;
 }
 
+header h1 {
+  color: green;
+}
+
+#currentDay {
+  color: rgba(255, 0, 0, 0.842);
+}
+
 textarea {
   background: transparent;
   border: none;
@@ -99,3 +107,4 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+

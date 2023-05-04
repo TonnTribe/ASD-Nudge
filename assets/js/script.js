@@ -31,4 +31,5 @@ fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=U
         // console.log(video.snippet.thumbnails.default.url);
     }
 })
-}
+};
+

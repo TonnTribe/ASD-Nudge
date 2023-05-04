@@ -11,6 +11,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/calendar.css" />
 </head>
 <body>
 
@@ -49,23 +50,17 @@
 
 
 
-    <section class="d-flex justify-content-around">
-
-      <!-- <aside class="d-flex justify-content-start">
-        <div class="list-group">
-            <ul>
-                <img src="./assets/images/puzzle_logo.png" class="card-img-top" alt="calendar icon image">
-                <li><a href="./calendar.html">Calendar</a></li>
-                <li><a href="./routines.html">Routines</a></li>
-                <li><a href="./rewards.html">Rewards</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>        
-      </aside> -->
+    <section class="d-flex">
       <div class="justify-content-center">
+        <div class="month">
+          <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li>May<br><span style="font-size:18px">2023</span></li>
+          </ul>
+        </div>
         <div class="table-responsive">
-          <table class="table table-striped">
+          <table class="weekdays table table-striped">
             <thead>
               <tr>
                 <th scope="col">Monday</th>
@@ -80,15 +75,15 @@
             <tbody class="table-group-divider">
               <tr>
                 <th scope="row" class="form-floating">
-                  <textarea class="form-control" placeholder="Insert your daily task" id="floatingTextarea2" style="height: 100px"></textarea>
-                  <label for="floatingTextarea2">To do</label>
+                  <textarea class="form-control description" placeholder="Insert your daily task" id="floatingText" style="height: 100px"></textarea>
+                  <label for="floatingText">To do</label>
                 </th>
                 <th scope="row" class="form-floating">
                   <textarea class="form-control" placeholder="Insert your daily task" id="floatingTextarea2" style="height: 100px"></textarea>
                   <label for="floatingTextarea2">2</label>
                 </th>
                 <th scope="row" class="form-floating">
-                  <textarea class="form-control" placeholder="Insert your daily task" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <textarea class="form-control description" placeholder="Insert your daily task" id="floatingTextarea2" style="height: 100px"></textarea>
                   <label for="floatingTextarea2">3</label>
                 </th>
                 <th scope="row" class="form-floating">
@@ -246,7 +241,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js" integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/js/calendar.js"></script>
   <script src="./assets/js/script.js"></script>
+
   </html>
 </body>
 </html>

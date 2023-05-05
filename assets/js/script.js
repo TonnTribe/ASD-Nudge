@@ -12,6 +12,8 @@ this.interval = setInterval(() => {
     timerEl.text(timer);
 },1000);
 
+// Roller Coaster Channel ID
+// UCfKNzpStyQAXfyeg0gxZftw
 
 function getVideos(){
 fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCk0fGHsCEzGig-rSzkfCjMw&maxResults=5&order=date&key=AIzaSyDvAZFhaHnHIbzEe8eQwDjbF8sGeva9Dyw&pageToken='+nextPageToken)

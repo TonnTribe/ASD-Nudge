@@ -1,95 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASD Nudge/Calendar</title>
-    <link rel="icon" type="image/png" href="./assets/images/puzzle_logo.png"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASD Nudge/Calendar</title>
+  <link rel="icon" type="image/png" href="./assets/images/puzzle_logo.png"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" 
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/calendar.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/calendar.css" />
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
-            <div class="title">
-              <img src="./assets/images/puzzle_logo.png">
-              <h1>ASD Nudge</h1>
-            </div>  
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <div class="title">
+        <img src="./assets/images/puzzle_logo.png">
+        <h1>ASD Nudge</h1>
+      </div>  
 
-          <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav me-auto .col-6 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./calendar.html">Calendar</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./routines.html">Routines</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./rewards.html">Rewards</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-            </ul>
-            <!-- <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
-          </div>
-        </div>
-      </nav>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav me-auto .col-6 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./calendar.html">Calendar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./routines.html">Routines</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./rewards.html">Rewards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
 
+        <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
+    </div>
+  </nav>
 
-
-    <section class="d-flex">
-      <div class="justify-content-center">
-        <div class="month">
-          <ul>
-            <li class="prev">&#10094;</li>
-            <li class="next">&#10095;</li>
-            <li>May<br><span style="font-size:18px">2023</span></li>
-          </ul>
-        </div>
-        <div class="table-responsive">
-          <table class="weekdays table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Monday</th>
-                <th scope="col">Tuesday</th>
-                <th scope="col">Wednesday</th>
-                <th scope="col">Thursday</th>
-                <th scope="col">Friday</th>
-                <th scope="col">Saturday</th>
-                <th scope="col">Sunday</th>
-              </tr>
-            </thead>
-            <tbody class="table-group-divider">
-              <tr>
-                <th scope="row" class="form-floating">
-                  <textarea class="form-control description" placeholder="Insert your daily task" id="floatingText" style="height: 100px"></textarea>
-                  <label for="floatingText">To do</label>
-                </th>
-                <th scope="row" class="form-floating">
-                  <textarea class="form-control" placeholder="Insert your daily task" id="floatingTextarea2" style="height: 100px"></textarea>
-                  <label for="floatingTextarea2">2</label>
-                </th>
-                <th scope="row" class="form-floating">
-                  <textarea class="form-control description" placeholder="Insert your daily task" id="floatingTextarea2" style="height: 100px"></textarea>
-                  <label for="floatingTextarea2">3</label>
-                </th>
-                <th scope="row" class="form-floating">
-                  <textarea class="form-control" placeholder="Insert your daily task" id="floatingTextarea2" style="height: 100px"></textarea>
-                  <label for="floatingTextarea2">4</label>
-                </th>
+  <section class="d-flex">
+    <div class="justify-content-center">
+      <div class="month">
+        <ul>
+          <li class="prev">&#10094;</li>
+          <li class="next">&#10095;</li>
+          <li>May<br><span style="font-size:18px">2023</span></li>
+        </ul>
+      </div>
+      <div class="table-responsive">
+        <table class="weekdays table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Monday</th>
+              <th scope="col">Tuesday</th>
+              <th scope="col">Wednesday</th>
+              <th scope="col">Thursday</th>
+              <th scope="col">Friday</th>
+              <th scope="col">Saturday</th>
+              <th scope="col">Sunday</th>
+            </tr>
+          </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <th scope="row" class="form-floating">
+              <textarea class="form-control description" placeholder="Insert your daily task" id="floatingText" style="height: 100px"></textarea>
+              <label for="floatingText">To do</label>
+            </th>
+            <th scope="row" class="form-floating">
+              <textarea class="form-control" placeholder="Insert your daily task" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">2</label>
+            </th>
+            <th scope="row" class="form-floating">
+              <textarea class="form-control description" placeholder="Insert your daily task" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">3</label>
+            </th>
+            <th scope="row" class="form-floating">
+              <textarea class="form-control" placeholder="Insert your daily task" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">4</label>
+            </th>
                 <th scope="row" class="form-floating">
                   <textarea class="form-control" placeholder="Insert your daily task" id="floatingTextarea2" style="height: 100px"></textarea>
                   <label for="floatingTextarea2">5</label>
@@ -226,7 +225,7 @@
           </table>
         </div>
       </div>
-    </section>
+  </section>
     <footer class="bd-footer d-flex flex-wrap justify-content-center align-items-center mt-5 py-5 bg-primary" style="height: 83px;">
         <div class="col-md-4 d-flex align-items-center">
           <span class="project">© 2023 ASD Nudge</span>

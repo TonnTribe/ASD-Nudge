@@ -1,9 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title img {
+    max-width: 20%;
+}
+
+.title h1 {
+    color: white;
+    font-size: larger;
+    display: inline-block;
+}
+  
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: gold;
+}
+
+.nav-link {
+    color: white;
+}
+
+.project {
+    color: white;
+    max-width: fit-content;
+    align-items: center;
+}
+
 .carousel {
     max-height: 400px;
     width: 50%;
-    text-align: center;
+    justify-content: center;
 }
 
-p {
-    display: inline-block;
+.container h2 {
+    display: flex;
+    color: rgba(255, 0, 0, 0.842);
+    align-items: center;
+    justify-content: center;
+}
+
+.container p {
+    display: flex;
+    margin-top: 20px;
+    color: rgba(255, 0, 0, 0.842);
+    align-items: center;
+    justify-content: center;
+}
+
+.startBtn {
+    color: white;
+    background-color: #0D6EFD;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.youtube-container a {
+    text-decoration: none;  
+}
+
+.youtube-container img {
+    max-width: 10%;
 }

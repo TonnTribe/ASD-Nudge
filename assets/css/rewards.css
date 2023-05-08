@@ -1,0 +1,9 @@
+.carousel {
+    max-height: 400px;
+    width: 50%;
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+}
